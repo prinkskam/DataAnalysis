@@ -1,2 +1,1 @@
-# DataAnalysis
-Twitter Data
+First the MongoDB is installed.
