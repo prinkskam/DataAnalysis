@@ -16,10 +16,10 @@ class TwitterClient(object):
         Class constructor or initialization method.
         '''
         # keys and tokens from the Twitter Dev Console
-        consumer_key = 'kYX1IXZtyJL6tIZIOAaZH5NWW'
-        consumer_secret = '9NBiry9tQBhQOqkG8uw1Joh6yKXjuBeMRSQeJvnlRUaIdBSUuh'
-        access_token = '467427378-8BUwIRXOkg5jm30vu4bcgHfXZiXnecXVHXVhG8UL'
-        access_token_secret = 'EKdYL6EeofYsu2WG248kxLNzAVF1ErfFP7iLxzzO1K8So'
+        consumer_key = 'UAOEgYfY4gR6ZuVxizdngfGUk'
+        consumer_secret = 'khKIkmQkQWpjhyH19YfTvhWCZNStxW8lLv9zOcSVfTvFDeVCBi'
+        access_token = '984781689762103297-5YYbFtjfykSZdqoP6sUpepWTU30IQzN'
+        access_token_secret = 'w7EwAD6rF2P5sTbZrIAZwMHh7WmQSX6ZROS2EWLyNW0RU'
 
         # attempt authentication
         try:
@@ -106,7 +106,7 @@ def main():
         maxlen -=1
     print(list)
     for query in list:
-        count = 200
+        count = 1000
         data = []
         tweets = api.get_tweets(query, count)
         # picking positive tweets from tweets
